@@ -3,6 +3,10 @@ body {
     padding-right: 150px;
 }
 
+p {
+    font-size: 15px;
+}
+
 .main-brand {
     font-size: 60px;
     text-align: center;
@@ -13,6 +17,12 @@ body {
     line-height: 2;
 }
 
+.copywrite {
+    font-weight: normal;
+    line-height: 0;
+    font-size: 20px;
+    margin-top: -30px;
+}
 
 .story-title {
     font-weight: normal;
@@ -60,12 +70,17 @@ body {
     padding: 0px 50px 0px 50px;
 }
 
-.story-credit {
-  
+.three-quarter {
+    width: 90%;
 }
 
-.three-quarter {
-    width: 75%;
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover {
+   color: white;
 }
 
 .nav-list {
@@ -75,8 +90,13 @@ body {
 }
 
 .nav-item   {
+    display: flex;
     width: 100%;
     flex: 1;
+    align-items: center;
+    padding: 2px 0px 2px 25px;
+    font-weight: bold;
+    justify-content: center;
 }
 
 .nav-item:nth-child(1) {
@@ -99,3 +119,28 @@ body {
     background-color: #a29bfe;
 }
  
+
+.nav-item:nth-child(6) {
+    background-color: #ff90bc;
+}
+
+.nav-item:nth-child(7) {
+    background-color: lightgrey;
+}
+
+
+.site-bottom {
+    border-bottom: 2.5px solid lightgrey;
+    color: black;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.site-bottom-title {
+    
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    padding-top: 10px;
+    align-items: center;
+}
