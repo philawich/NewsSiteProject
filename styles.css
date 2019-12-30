@@ -5,6 +5,11 @@ body {
 
 p {
     font-size: 15px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.edition-top-right {
+    font-weight: bold;
 }
 
 .main-brand {
@@ -47,6 +52,16 @@ p {
 
 .half {
     flex-grow: 2;
+}
+
+.third {
+    width: 70%;
+}
+
+.fourth {
+    width: 30%;
+    align-items: center;
+    align-content: center;
 }
 
 .story {
@@ -144,3 +159,25 @@ p {
     padding-top: 10px;
     align-items: center;
 }
+
+.toggle-dark {
+    display: flex;
+    float: right;
+    justify-content: right;
+}
+
+.site-social {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 40%;
+    order: 3;
+}
+    
