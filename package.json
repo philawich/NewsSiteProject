@@ -1,0 +1,22 @@
+{
+  "name": "newssiteproject",
+  "version": "1.0.0",
+  "description": "HTML &amp; CSS / Frontend Masters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trilltown/NewsSiteProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trilltown/NewsSiteProject/issues"
+  },
+  "homepage": "https://github.com/trilltown/NewsSiteProject#readme",
+  "dependencies": {
+    "jquery-plugin": "0.0.0-ignored"
+  }
+}
